@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExpandableTextView">
+        <attr name="hnc_text" format="string" />
+        <attr name="hnc_maxLine" format="integer" />
+        <attr name="hnc_textColor" format="color" />
+        <attr name="hnc_moreLessTextColor" format="color" />
+        <attr name="hnc_textSize" format="dimension" />
+        <attr name="hnc_moreLessTextSize" format="dimension" />
+        <attr name="hnc_moreLessShow" format="boolean" />
+        <attr name="hnc_moreLessGravity">
+            <flag name="left" value="3" />
+            <flag name="right" value="5" />
+        </attr>
+        <attr name="hnc_animationDuration" format="integer" />
+        <attr name="hnc_moreLessAllCaps" format="boolean" />
+        <attr name="hnc_moreLessTextStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+        <attr name="hnc_TextStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+        <attr name="hnc_defaultExpand" format="boolean" />
+    </declare-styleable>
+</resources>

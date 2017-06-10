@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ExpandableTextview/ExpandableTextview.iml" filepath="$PROJECT_DIR$/ExpandableTextview/ExpandableTextview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyExpandableTextView.iml" filepath="$PROJECT_DIR$/MyExpandableTextView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
