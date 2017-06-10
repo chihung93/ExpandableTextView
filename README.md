@@ -1,16 +1,15 @@
 # ExpandableTextView
 
-An expandable TextView for Android applications  4.1 (JELLY_BEAN).
+An expandable TextView for Android applications **4.1 (JELLY_BEAN).
 
-This is a library for text collapse/expand.
+# Introduce
 
-Hello you guys,
+Hello you guys,This is a library for text collapse/expand.
 
 This is the first time ,I created lib for myself and share this idea for everybody needed .
 Please post your issues to me if there is an error
 
 I have reference through the following library : 
-
 https://github.com/Blogcat/Android-ExpandableTextView
 
 # DEMO
