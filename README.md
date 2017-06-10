@@ -1,6 +1,6 @@
 # ExpandableTextView
 
-An expandable TextView for Android applications **4.1 (JELLY_BEAN).
+An expandable TextView for Android applications 4.1 (JELLY_BEAN).
 
 # Introduce
 
