@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.LinearLayout;
 
 import com.hungnc.expandabletextview.ExpandableTextView;
@@ -35,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
                 textView.toggle();
             }
         });
+
+
         final ExpandableTextView textView2 = new ExpandableTextView(this);
         LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         layoutParams.setMargins(20, 20, 20, 20);
@@ -55,6 +58,9 @@ public class MainActivity extends AppCompatActivity {
               // do nothing
             }
         });
+        textView2.setAnimationDuration(1000);
+        textView2.setCollapseInterpolator( new AccelerateDecelerateInterpolator());
+        textView2.setExpandInterpolator( new AccelerateDecelerateInterpolator());
         ((LinearLayout) findViewById(R.id.root)).addView(textView2);
     }
 }
