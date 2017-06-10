@@ -1,5 +1,7 @@
 # ExpandableTextView
 
+An expandable TextView for Android applications (4.0+).
+
 This is a library for text collapse/expand.
 
 Hello you guys,
@@ -10,6 +12,10 @@ Please post your issues to me if there is an error
 I have reference through the following library : 
 
 https://github.com/Blogcat/Android-ExpandableTextView
+
+# DEMO
+![](https://github.com/chihung93/ExpandableTextView/blob/master/demo.gif)
+
 
 # USAGE 
 
@@ -69,7 +75,7 @@ final ExpandableTextView textView2 = new ExpandableTextView(this);
         textView2.setExpandInterpolator( new AccelerateDecelerateInterpolator());
         ((LinearLayout) findViewById(R.id.root)).addView(textView2);
         
-        ```
+```
 
 # DEVELOP BY
 [Chi Hung](https://github.com/chihung93)
