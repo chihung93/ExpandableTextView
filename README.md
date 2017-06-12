@@ -27,7 +27,15 @@ You can copy this module to import your project like this :
 Don't forget add this line in layout 
 
 `xmlns:hnc="http://schemas.android.com/apk/res-auto"`
+```
+The Layout must be match_parent like this :
 
+<com.hungnc.expandabletextview.ExpandableTextView
+        android:layout_width="match_parent"
+        android:id="@+id/expandableTextView"
+        android:layout_height="wrap_content"
+        .... />
+```
 
 # Use it in your layout xml.
 
