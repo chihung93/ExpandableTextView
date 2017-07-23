@@ -16,10 +16,25 @@ https://github.com/Blogcat/Android-ExpandableTextView
 ![](https://github.com/chihung93/ExpandableTextView/blob/master/demo.gif)
 
 # Add Lib
-Currently, I have not yet purchased the account to upload it to the cloud (marven and jcenter - I'm looking for host files for free because I do not have enough money), so sorry for the inconvenience.
-You can copy this module to import your project like this : 
+Add it in your root build.gradle at the end of repositories:
 
-`compile project(':ExpandableTextview')`
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+        
+```        
+        
+Add the dependency : 
+
+```
+dependencies {
+		compile 'com.github.User:Repo:Tag'
+	}
+```
 
 
 # USAGE 
