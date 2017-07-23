@@ -32,7 +32,7 @@ Add the dependency :
 
 ```
 dependencies {
-		compile 'com.github.User:Repo:Tag'
+	        compile 'com.github.chihung93:ExpandableTextView:1.0'
 	}
 ```
 
